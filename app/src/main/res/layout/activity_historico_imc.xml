@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fundo3"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".HistoricoIMC">
+
+        <Button
+            android:id="@+id/btnVoltar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/voltar"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/fundo_botao" />
+
+        <Button
+            android:id="@+id/btnDeletarTodos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deletar_tudo"
+            android:textAllCaps="true"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/fundo_botao" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewContatos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/txtSemHistorico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nenhum histórico encontrado."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Santos DB</string>
+    <string name="calculadora">Calcular IMC</string>
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="peso_kg">Peso (kg)</string>
+    <string name="altura_m">Altura (m)</string>
+    <string name="seu_imc">IMC</string>
+    <string name="calcular">Calcular</string>
+    <string name="historico">Histórico</string>
+    <string name="deletar_tudo">Apagar Histórico</string>
+    <string name="titulos">Títulos</string>
+    <string name="voltar">Voltar</string>
+</resources>
