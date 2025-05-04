@@ -11,4 +11,6 @@
     <string name="deletar_tudo">Apagar Histórico</string>
     <string name="titulos">Títulos</string>
     <string name="voltar">Voltar</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="cancelar">Cancelar</string>
 </resources>
