@@ -81,6 +81,27 @@
             android:textStyle="bold"
             android:layout_marginTop="4dp" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end" >
+
+
+            <ImageView
+                android:id="@+id/btnAtualizar"
+                android:layout_width="26dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_editar" />
+
+            <ImageView
+                android:id="@+id/btnDeletar"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_remover" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </layout>
