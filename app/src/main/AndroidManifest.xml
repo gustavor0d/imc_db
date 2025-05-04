@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SantosDB"
         tools:targetApi="31">
         <activity
+            android:name=".AtualizarIMC"
+            android:exported="false" />
+        <activity
             android:name=".adapter.HistoricoAdapter"
             android:exported="false" />
         <activity
